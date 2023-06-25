@@ -19,33 +19,51 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.closeBrowser()
+
+WebUI.openBrowser('')
+
+WebUI.closeBrowser()
+
+WebUI.openBrowser('')
+
 WebUI.navigateToUrl('http://ec2-34-194-6-57.compute-1.amazonaws.com/quent-pre-user-trail/#/pages/dashboard/put/usertrail')
 
-WebUI.click(findTestObject('Object Repository/Page_QuentPreUserTrail/div_1'))
+WebUI.click(findTestObject('Object Repository/Page_QuentPreUserTrail/div__mat-select-arrow-wrapper ng-tns-c121-1'))
 
 WebUI.click(findTestObject('Object Repository/Page_QuentPreUserTrail/span_91'))
 
 WebUI.setText(findTestObject('Object Repository/Page_QuentPreUserTrail/input__login-phonenumber'), '9022351287')
 
-WebUI.click(findTestObject('Object Repository/Page_QuentPreUserTrail/div__mat-form-field-infix ng-tns-c124-2'))
-
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_QuentPreUserTrail/input__login-password'), 'cvW8qx4B2o3F4VwP/kNsqA==')
 
-WebUI.click(findTestObject('Object Repository/Page_QuentPreUserTrail/label_Remember me'))
+WebUI.click(findTestObject('Object Repository/Page_QuentPreUserTrail/span_Login'))
 
-WebUI.click(findTestObject('Object Repository/Page_QuentPreUserTrail/button_Login'))
+WebUI.click(findTestObject('Object Repository/Page_QuentPreUserTrail/img_PUT Data_date-picker ng-tns-c113-4'))
 
-WebUI.setText(findTestObject('Object Repository/Page_QuentPreUserTrail/input_PUT Data_mat-input-2'), 'Divum')
+WebUI.click(findTestObject('Object Repository/Page_QuentPreUserTrail/button_QT Interval_mat-focus-indicator mat-_25192e'))
 
-WebUI.click(findTestObject('Object Repository/Page_QuentPreUserTrail/span_Search'))
+WebUI.click(findTestObject('Object Repository/Page_QuentPreUserTrail/button_QT Interval_mat-focus-indicator mat-_25192e'))
 
-WebUI.setText(findTestObject('Object Repository/Page_QuentPreUserTrail/input_PUT Data_mat-input-2'), 'Chetan')
-
-WebUI.click(findTestObject('Object Repository/Page_QuentPreUserTrail/button_Search'))
-
-WebUI.setText(findTestObject('Object Repository/Page_QuentPreUserTrail/input_PUT Data_mat-input-2'), 'Chethan')
+WebUI.click(findTestObject('Object Repository/Page_QuentPreUserTrail/div_3'))
 
 WebUI.click(findTestObject('Object Repository/Page_QuentPreUserTrail/button_Search'))
+
+WebUI.click(findTestObject('Object Repository/Page_QuentPreUserTrail/span_CM'))
+
+WebUI.click(findTestObject('Object Repository/Page_QuentPreUserTrail/span_Kg'))
+
+WebUI.setText(findTestObject('Object Repository/Page_QuentPreUserTrail/input_Channel_mat-input-6'), 'Manual')
+
+WebUI.setText(findTestObject('Object Repository/Page_QuentPreUserTrail/input_Vital Type_mat-input-7'), 'Hr')
+
+WebUI.click(findTestObject('Object Repository/Page_QuentPreUserTrail/span_24 hour'))
+
+WebUI.click(findTestObject('Object Repository/Page_QuentPreUserTrail/span_12 hour'))
+
+WebUI.click(findTestObject('Object Repository/Page_QuentPreUserTrail/div_Export'))
+
+WebUI.click(findTestObject('Object Repository/Page_QuentPreUserTrail/button_CSV'))
 
 WebUI.click(findTestObject('Object Repository/Page_QuentPreUserTrail/img'))
 
