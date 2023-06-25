@@ -6,12 +6,12 @@
    <elementGuidId>838709ab-0a6e-4b1e-9f5a-13adf7e43b47</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.profile-menu-button</value>
+         <key>XPATH</key>
+         <value>//button[@id='logout']/span/div/div[2]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='logout']/span/div</value>
+         <key>CSS</key>
+         <value>div.m-l4.text.ng-star-inserted</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,84 +22,94 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>14002cae-5aaa-46e1-816f-97ca537796f6</webElementGuid>
+      <webElementGuid>d4e0c678-b437-4c3a-a10f-de2422b9fae6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>profile-menu-button</value>
-      <webElementGuid>af89eb04-727b-4323-bf37-c12043aa50c7</webElementGuid>
+      <value>m-l4 text ng-star-inserted</value>
+      <webElementGuid>fc24d33c-e2c1-42ac-8b6a-a693c126eb77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>
-
-Logout</value>
-      <webElementGuid>35c13d0a-ca4f-413b-85a9-f8c255bfada5</webElementGuid>
+      <value>Logout</value>
+      <webElementGuid>099277dd-9076-4615-9baf-a36ed050d788</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;logout&quot;)/span[@class=&quot;mat-button-wrapper&quot;]/div[@class=&quot;profile-menu-button&quot;]</value>
-      <webElementGuid>e02b1e31-e772-4d5a-afa3-9306a0694ddd</webElementGuid>
+      <value>id(&quot;logout&quot;)/span[@class=&quot;mat-button-wrapper&quot;]/div[@class=&quot;profile-menu-button&quot;]/div[@class=&quot;m-l4 text ng-star-inserted&quot;]</value>
+      <webElementGuid>422099ca-b2e9-4594-9b28-b6f65b70e25e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//button[@id='logout']/span/div</value>
-      <webElementGuid>be88c69b-db95-40f6-8a5f-fa3153daeef2</webElementGuid>
+      <value>//button[@id='logout']/span/div/div[2]</value>
+      <webElementGuid>94a4cd02-e5ea-4350-a752-fccf3a3cb485</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='D'])[1]/following::div[5]</value>
-      <webElementGuid>373d1251-bb63-43eb-9bc5-e1f7c92b1000</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='D'])[1]/following::div[7]</value>
+      <webElementGuid>3cc93bb9-e64b-4873-ab1f-b28c74091b30</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Diksha'])[1]/following::div[7]</value>
-      <webElementGuid>42ea18ac-a800-4385-a9fc-1232f65f4008</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Diksha'])[1]/following::div[9]</value>
+      <webElementGuid>a5fe2a2c-e47b-46f5-8df9-9a90cbb0e8f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Diksha D'])[2]/preceding::div[11]</value>
-      <webElementGuid>712c62e4-9ecb-47da-9e47-05b0210db542</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Diksha D'])[2]/preceding::div[9]</value>
+      <webElementGuid>258277fb-ec57-4c9d-8d15-5e35da151f34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Collapsed'])[1]/preceding::div[10]</value>
+      <webElementGuid>92495e58-89bb-4c77-ad59-4c74f1b29bd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Logout']/parent::*</value>
+      <webElementGuid>f9dd84d8-1be0-42b4-a358-5a81e88ff015</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//mat-list-item/div/button/span/div</value>
-      <webElementGuid>96fd2064-6a18-4923-a551-31ee65b2c306</webElementGuid>
+      <value>//span/div/div[2]</value>
+      <webElementGuid>65eeae1d-705a-48f1-9d88-fa398c941014</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[(text() = '
-
-Logout' or . = '
-
-Logout')]</value>
-      <webElementGuid>068108ac-7e25-453a-95bd-20d6f6cb4b58</webElementGuid>
+      <value>//div[(text() = 'Logout' or . = 'Logout')]</value>
+      <webElementGuid>b711d758-88b4-4559-aaab-dd4794bf3782</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

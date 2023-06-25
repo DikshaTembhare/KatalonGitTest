@@ -6,12 +6,12 @@
    <elementGuidId>fb4030db-e184-451a-9f59-08e0c649dde8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-option-1 > span.mat-option-text</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//mat-option[@id='mat-option-1']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-option-1 > span.mat-option-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>ff49cbd7-a310-4f6d-8b8c-19c763a773e5</webElementGuid>
+      <webElementGuid>aa39b277-236d-4035-b5a6-7f6d3e63ef6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>12d71b15-0f4a-4b14-983e-402d070bc414</webElementGuid>
+      <webElementGuid>6b2729e5-7b8d-407b-8c9e-a4a036dffc4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value> +91 </value>
-      <webElementGuid>822b558a-b717-43f8-b220-872908b2eb8a</webElementGuid>
+      <webElementGuid>c5beb9c4-2cfe-4f93-a32d-904c0586be94</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-1&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>1f391fa6-c714-4a80-b1ba-e0b5f7e37979</webElementGuid>
+      <webElementGuid>6fc468b8-a0ae-4a13-8677-623c88dcb0a2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-1']/span</value>
-      <webElementGuid>14952e3d-3665-46d2-9805-64f684152610</webElementGuid>
+      <webElementGuid>91b7ecb8-d1a1-4ce1-8936-4783b04ba7dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mat-option-1', '&quot;', ')/span[@class=', '&quot;', 'mat-option-text', '&quot;', ']')])[1]/following::span[2]</value>
-      <webElementGuid>8f492a23-547a-4839-89a9-98709da70d46</webElementGuid>
+      <webElementGuid>c2bc94b5-d45b-4c78-a894-032701cdfab4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='© Copyright 2022 Quent. All rights reserved.'])[1]/following::span[2]</value>
-      <webElementGuid>c673f5bd-1c6f-488d-803e-249aed6ae87c</webElementGuid>
+      <webElementGuid>74a02429-f976-452f-8a1f-4e9e4f7e3b26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View password'])[1]/preceding::span[1]</value>
-      <webElementGuid>3667ab90-aa92-46af-a680-d25570445bc0</webElementGuid>
+      <webElementGuid>08e3506e-47f9-4aaa-8462-b1a30b005442</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='+91']/parent::*</value>
-      <webElementGuid>953957a9-c88a-4ec2-954a-bb0c1b10b985</webElementGuid>
+      <webElementGuid>a228d0fd-c44f-40d8-86f0-91b81df4b193</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option[2]/span</value>
-      <webElementGuid>b1bd50b0-543f-495c-9e1a-922566588116</webElementGuid>
+      <webElementGuid>96e240c1-8a89-4015-ba84-727f01b4936c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' +91 ' or . = ' +91 ')]</value>
-      <webElementGuid>c3cdc046-b12a-47d7-8bf5-525ccfaea018</webElementGuid>
+      <webElementGuid>532e2639-0692-43b0-80b0-8a2cb5bb6950</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
